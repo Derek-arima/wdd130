@@ -1,0 +1,33 @@
+body
+{
+    background-color: #737373;
+    margin: 0 auto;
+}
+
+#top-img
+{
+    padding: 0px;
+    max-width: 100%;
+}
+
+.row
+{
+    display: flex;
+}
+
+.column
+{
+    flex: 33.33%;
+    padding-top: 5%;
+    padding-left: 7%;
+    padding-right: 3%;
+    padding-bottom: 5%;
+    margin: 0 auto;
+}
+
+.bubble
+{
+    width: 80%;
+    border-radius: 50%;
+    border: 15px solid #444444;
+}
