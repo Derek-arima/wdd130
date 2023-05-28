@@ -1,0 +1,47 @@
+.grid
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas: "stack";
+
+}
+
+
+.pic
+{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-area: stack;
+    
+}
+
+#tart
+{
+    font-weight: bold;
+    font-size: 10em;
+    width: 100%;
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-area: stack;
+    z-index: 1;
+}
+
+#and
+{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    font-weight: bold;
+    font-size: 10em;
+    width: 100%;
+    text-align: center;
+    grid-column-start: 1;
+    
+}
+
+.side
+{
+    background-color: gray;
+    grid-column-start: 2;
+    grid-column-end: 5;
+}
