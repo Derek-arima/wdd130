@@ -1,0 +1,53 @@
+/* create a media screen for small screens */
+    body{
+        margin: 0;
+        text-align: center;
+    }
+    #bridge {
+        width: 100%;
+        max-width: 600px;
+    }
+
+    #weeks{
+        color: #3F5B8B;
+        margin: 0;
+        margin-top: 10%;
+        font-size: large;
+    }
+
+    h1{
+        margin: 0;
+    }
+
+    #lorem{
+        margin: 10%;
+        color: #9A909A;
+        font-size: larger;
+    }
+
+    footer{
+        background-color: #3F5B8B;
+        margin: 0;
+    }
+    .grid{
+        margin: 0;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        background-color: #3F5B8B;
+        
+    }
+
+    #left{
+        grid-column: 1/2;
+        color: white;
+    }
+
+    #middle{
+        grid-column: 2/3;
+        color: white;
+    }
+
+    #right{
+        grid-column: 3/4;
+        color: white;
+    }
